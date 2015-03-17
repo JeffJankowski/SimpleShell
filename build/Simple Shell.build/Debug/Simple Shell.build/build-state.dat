@@ -1,0 +1,125 @@
+TSimple Shell
+v7
+r0
+t315449522.267040
+cCheck dependencies
+cCompileC "build/Simple Shell.build/Debug/Simple Shell.build/Objects-normal/x86_64/main.o" "/Developer/Projects/Simple Shell/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cLd "/Developer/Projects/Simple Shell/build/Debug/Simple Shell" normal x86_64
+
+N/Developer/Projects/Simple Shell/build/Debug/Simple Shell
+t1293756722
+s27784
+
+N/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/Objects-normal/x86_64/Simple Shell.LinkFileList
+c000000004D17EE5F0000000000000070
+t1293413983
+s112
+
+N/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/Objects-normal/x86_64/main.o
+t1293756722
+s58196
+
+N/Developer/Projects/Simple Shell/main.cpp
+c000000004D540932000000000000157C
+t1297353010
+s5500
+i<stdio.h>
+i<stdlib.h>
+i<unistd.h>
+i<signal.h>
+i<sys/wait.h>
+i<string.h>
+i<list>
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BF4701900000000000000EE
+t1274310681
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
+c000000004AC59C810000000000002C18
+t1254464641
+s11288
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
+c000000004AC59C8100000000000003EB
+t1254464641
+s1003
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
+c000000004AC59C8100000000000003EA
+t1254464641
+s1002
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
+c000000004AC59C8200000000000014F0
+t1254464642
+s5360
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004AC59C820000000000002DF5
+t1254464642
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004AC59C820000000000001731
+t1254464642
+s5937
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/param.h
+c000000004B90BBA900000000000027BE
+t1267776425
+s10174
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/stat.h
+c000000004B90BBAA0000000000004A1D
+t1267776426
+s18973
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
+c000000004B90BBAB0000000000002905
+t1267776427
+s10501
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/wait.h
+c000000004B90BBAB000000000000273C
+t1267776427
+s10044
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
+c000000004AC59C82000000000000563E
+t1254464642
+s22078
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies315449522#315449522#0(0"0(0#1#0"8628639904#0"0#
+
+CCompileC "build/Simple Shell.build/Debug/Simple Shell.build/Objects-normal/x86_64/main.o" "/Developer/Projects/Simple Shell/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s315449522.113947
+e315449522.243187
+r1
+xCompileC
+xbuild/Simple Shell.build/Debug/Simple Shell.build/Objects-normal/x86_64/main.o
+x/Developer/Projects/Simple Shell/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@49"Compile /Developer/Projects/Simple Shell/main.cpp315449522#315449522#0(0"0(0#0#41"/Developer/Projects/Simple Shell/main.cpp8628347232#1337"    cd "/Developer/Projects/Simple Shell"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/Simple Shell-generated-files.hmap" "-I/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/Simple Shell-own-target-headers.hmap" "-I/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/Simple Shell-all-target-headers.hmap" -iquote "/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/Simple Shell-project-headers.hmap" "-F/Developer/Projects/Simple Shell/build/Debug" "-I/Developer/Projects/Simple Shell/build/Debug/include" "-I/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/DerivedSources/x86_64" "-I/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/DerivedSources" -c "/Developer/Projects/Simple Shell/main.cpp" -o "/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Developer/Projects/Simple Shell/build/Debug/Simple Shell" normal x86_64
+s315449522.243281
+e315449522.266979
+r1
+xLd
+x/Developer/Projects/Simple Shell/build/Debug/Simple Shell
+xnormal
+xx86_64
+lSLF07#2@62"Link /Developer/Projects/Simple Shell/build/Debug/Simple Shell315449522#315449522#0(0"0(0#0#0"8627996896#498"    cd "/Developer/Projects/Simple Shell"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Developer/Projects/Simple Shell/build/Debug" "-F/Developer/Projects/Simple Shell/build/Debug" -filelist "/Developer/Projects/Simple Shell/build/Simple Shell.build/Debug/Simple Shell.build/Objects-normal/x86_64/Simple Shell.LinkFileList" -mmacosx-version-min=10.6 -o "/Developer/Projects/Simple Shell/build/Debug/Simple Shell"0#
+
